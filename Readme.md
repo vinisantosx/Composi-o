@@ -1,22 +1,16 @@
 # 1. Introdução
 
-- Documentação solicitada pelo professor Jefté Goes para discorrer sobre o que foi entendido na aula de 12/02 sobre Composição.
+- Documentação solicitada pelo professor Jefté Goes para discorrer sobre o que foi entendido na aula de 12/02 sobre Injeção de Dependência.
 
-# 2. Composiçaõ
+# 2. Injeção de Dependência
 
-- Diferente da Herança, a Composição pode instanciar, ou usar, uma classe/objeto em outra clase. 
+- Através da Injeção de Dependência é possível promover o desacoplamento entre classes, tirando a responsabilidade de uma classe de instanciar ou buscar objetos dessas outras classes das quais ela depende.
 
 # 3. Entendimeto
 
-- Com a utilização da Composição já se obtém mais possibilidades, foi a partir dela que cada animal conseguiu ter seu comportamento alterado em sua própria classe, sem que todos os outros recebessem essa mesma alteração.
+- Com a Injeção de Dependência foi possível resolver os erros que surgiram com as duas outras estruturas (Herança e Composição), pois eram erros que poderiam ser resolvidos com o desacoplamento dessas classes, permitindo que cada uma executasse sua tarefa de maneira separada, economizando linhas de código, melhorando a distribuição e facilitando a manutenção do código.
 
-# 4. Problemas
 
-- Por mais que, em relação a Herança, a Composição tenha sido melhor trabalhada, surgiram problemas, como o aumento de código, pois cada animal trabalha seus comportamentos de forma particular, o que torna o código muito maior. Seguindo essa linha, imaginando uma situação em que existisse a necessidade de incluir diversos animais com diversas características diferentes ao sistema, o resultado seria um código muito extenso.
-
-# 5. Solução
-  
-- A solução encontrada foi passar a utilizar a Injeção de Dependência.
 
 
   
